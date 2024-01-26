@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  font-family: 'Switzer', sans-serif;
+  background: white;
+  transition: all 3ms ease;
+  color: black;
+  scroll-behavior: smooth;
+  border-radius: 20px;
+
+}
+.header{
+  position: sticky;
+}
+
