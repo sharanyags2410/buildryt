@@ -1,0 +1,158 @@
+.container {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: grid;
+    color: white;
+    background: black;
+    max-height: 595px;
+    font-size: 16px;
+    gap: 61px;
+}
+
+.footer {
+    padding-top: 80px;
+    display: flex;
+    padding-bottom: 0;
+}
+
+.footercontent {
+    display: inline-flex;
+    max-width: 609px;
+    height: 267px;
+    flex: 1;
+}
+
+.block1 ul {
+    line-height: 24px;
+    text-align: left;
+    display: inline-grid;
+    letter-spacing: normal;
+    justify-content: left;
+    padding: 0 0;
+}
+
+.contentright a:hover {
+    color: #696969;
+}
+
+.gap1 .gap2 {
+    line-height: 30.006px;
+}
+
+
+li {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.socialMedia ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+.socialMedia ul li {
+    text-align: left;
+    padding-right: 12px;
+    line-height: 24px;
+}
+
+.right {
+    display: flex;
+    gap: 32px;
+    width: 545px;
+    max-height: 301px;
+}
+
+
+
+.block2 ul {
+    justify-content: left;
+    width: 155px;
+    height: 220;
+    padding: 0 0;
+
+}
+
+.block3 ul {
+    justify-content: left;
+    width: 155px;
+    height: 220px;
+    padding: 0 0;
+}
+
+.company {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contentright {
+    font-size: 14px;
+    line-height: 37px;
+    text-align: left;
+    letter-spacing: 0.7px;
+
+}
+
+.block4 ul {
+    width: 277.45px;
+    height: 267px;
+    padding: 0 0;
+}
+
+.support {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.block4content {
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.mailname {
+    color: #696969;
+}
+
+.mailname:hover {
+    color: #595959;
+}
+
+.mail a:hover {
+    color: #595959;
+}
+
+.block1 li a:hover {
+    color: #595959;
+
+}
+
+.horizontalLine { 
+    margin: 0 0;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    
+    
+}
+
+.afterhr{
+    margin: 0 0;
+    display: inline-flex;
+    gap: 48.5rem;
+}
+
+.endfooterright{
+    display: flex;
+    gap: 2rem;  
+    
+}
+
+.endfooterright li a{
+    text-decoration:underline;
+    justify-content: right;
+    text-align: right;
+}
+
