@@ -1,0 +1,167 @@
+/* .container{
+    height: 1003px;
+    padding: 0px 25px 0px 25px;
+    display: grid;
+}
+
+.ourwork{
+    font-size: 64px;
+    margin:146px 0px 0px 32px;
+    text-align: center;
+    line-height: 72px;
+    letter-spacing: 3.2px;
+    justify-content: center;
+    font-weight: 500; 
+}
+
+.menuContainer{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.filters{
+    width: 291.6px;
+    height: 60px;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border-color: #13c4a1;
+    border-bottom-color: #13c4a1;
+}
+.searchHistory{
+    display: inline-flex;
+}
+
+.searchHistory p{
+    gap: 300px;
+}
+ */
+
+ /* Ourwork.module.css */
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ourwork {
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #333; /* Adjust color as needed */
+  /* } */
+  
+  /* .menuContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .filters {
+    width: 250px;
+  }
+  
+  .searchHistory {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .searchHistory p {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #13c4a1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  /* .images {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive Design */
+  /* @media screen and (max-width: 768px) {
+    .filters {
+      width: 100%;
+    }
+  } */
+   
+/* Ourwork.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ourwork {
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .menuContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .filters {
+    width: 250px;
+  }
+  
+  .searchHistory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .searchHistory p {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #13c4a1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #108e75;
+  }
+  
+  .images {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .filters {
+      width: 100%;
+    }
+  }
+  
