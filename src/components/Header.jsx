@@ -4,6 +4,7 @@ import { MdLocationPin } from "react-icons/md";
 import css from './Header.module.css'
 import { Link } from 'react-router-dom';
 
+
 const Location = () => {
   const [selectedCity, setSelectedCity] = useState('BANGALORE');
 
@@ -51,12 +52,12 @@ function Dropdown() {
   return (
     <div className={css.submenu1}>
       <ul>
-        <li className={css.submenucontent}><a href="">WHO WE ARE</a></li>
-        <li className={css.submenucontent}><a href="">SELECT HOMES</a></li>
-        <li className={css.submenucontent}><a href="">SERVICES</a></li>
-        <li className={css.submenucontent}><a href="">FQA</a></li>
-        <li className={css.submenucontent}><a href="">CONTACT US</a></li>
-        <li className={css.submenucontent}><a href="">JOIN US</a></li>
+        <li className={css.submenucontent}><Link to='/whoweare'>Whoweare</Link></li>
+        <li className={css.submenucontent}><Link to="/selecthomes">SELECT HOMES</Link></li>
+        <li className={css.submenucontent}><Link to="/services">SERVICES</Link></li>
+        <li className={css.submenucontent}><Link to="/faq">FQA</Link></li>
+        <li className={css.submenucontent}><Link to="/contactus">CONTACT US</Link></li>
+        <li className={css.submenucontent}><Link to="/joinus">JOIN US</Link></li>
       </ul>
     </div>
   );

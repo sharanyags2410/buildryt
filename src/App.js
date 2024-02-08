@@ -7,6 +7,12 @@ import { Route, Routes } from 'react-router-dom';
 import Why from './navComponents/Why';
 import Package from './navComponents/Packages'
 import Ourwork from './navComponents/Ourwork'
+import Whoweare from './navComponents/Whoweare';
+import Selecthome from './navComponents/Selecthome';
+import Services from './navComponents/Services';
+import Faq from './navComponents/Faq';
+import Contactus from './navComponents/Contactus';
+import Joinus from './navComponents/Joinus';
 function App() {
   return (
     <div className="App">
@@ -18,6 +24,12 @@ function App() {
           <Route path='whyus' element={<Why/>} />
           <Route path='packages' element={<Package/>} />
           <Route path='ourwork' element={<Ourwork/>} />
+          <Route path='whoweare' element={<Whoweare/>} />
+          <Route path='selecthomes' element={<Selecthome/>} />
+          <Route path='services' element={<Services/>} />
+          <Route path='faq' element={<Faq/>} />
+          <Route path='contactus' element={<Contactus/>} />
+          <Route path='joinus' element={<Joinus/>} />
         </Routes>
      
 
