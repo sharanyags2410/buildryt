@@ -13,9 +13,9 @@ const Joinus = () => {
      </section>
 
     <Fade bottom  >
-     <section className='about'>
+     <section className='join'>
         <div className='main'>
-            <div className='about-text'>
+            <div className='join-text'>
                 
                     <h2>PARTNER WITH BUILDRYT</h2>
                 
