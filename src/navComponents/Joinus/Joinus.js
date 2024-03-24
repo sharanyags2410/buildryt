@@ -1,6 +1,6 @@
 import React from 'react'
 import './joinus.css'
-import ppl from './JoinusAssests/asset 1.svg'
+import ppl from '../JoinusAssests/asset 1.svg'
 import Fade from 'react-reveal'
 const Joinus = () => {
   return (

@@ -1,9 +1,11 @@
+
 .container{
     padding: 0px 79px;
     display: flex;
     background: black;
     color: white;    
     height: 88px;
+    
 }
 
 .logo{

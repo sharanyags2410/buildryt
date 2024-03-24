@@ -1,0 +1,147 @@
+.contactus{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+   
+}
+.contactus-container{
+    display: flex;
+    flex: 1;
+}
+.text-wrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    line-height: 1.1;
+    padding-top: 0px;
+    margin-top: 24px;
+}
+.text-wrapper p{
+    padding: 20px 0;
+    padding-right: 300px;
+    color: #595959;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: normal;
+    padding-top: 10px;
+}
+
+.text-wrapper h4{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 100;
+    color: #0d0d0d;
+    font-size: 22px;
+    padding: 30px 0;
+    
+}
+.text-wrapper h1{
+    line-height: normal;
+    padding-top: 20px;
+    color: #0d0d0d;
+    font-size: 64px;
+    letter-spacing: 3.4px;
+    font-weight: 500;
+}
+.subtitle-container{
+    display: flex;
+    gap: 10px;
+}
+.subtitle-container hr{
+    width: 30%;
+    height: 3px;
+    background: black;
+ margin-top: 14px;
+}
+.subtitle-container h4{
+    padding: 0;
+}
+
+.imgwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-left: 0;
+}
+.imgwrapper img{
+    width: 100%;
+       height: 800px;
+    margin-left: 0;
+}
+.contact-details{
+    display: flex;
+}
+.email-info-items{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+.email-info{
+    width: 500px;
+    height: 100px;
+}
+.email-info p{
+    font-weight: 500;
+   font-size: 22px;
+}
+.support{
+    color: #909090;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin-left: 80px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-heading{
+    display: flex;
+    flex-direction: row;
+    gap: 30p;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.contact-heading hr{
+    width: 20%;
+    height: 3px;
+    margin: 0 20px;
+    background: black;
+}
+.contact-details h4{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 100;
+    color: #0d0d0d;
+    font-size: 22px;
+}
+.contact-details h2{
+    line-height: normal;
+    padding-top: 20px;
+    color: #0d0d0d;
+    font-size: 38px;
+    letter-spacing: 3.1px;
+    font-weight: 50;
+}
+.contactLink{
+    padding: 10px 0;
+}
+.contactLink:hover{
+    color: #12ba98;
+    transform: translateY(-10px);
+    transition: 0.6s;
+}
+.time p{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}

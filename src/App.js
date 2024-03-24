@@ -11,8 +11,8 @@ import Whoweare from './navComponents/Whoweare';
 import Selecthome from './navComponents/Selecthome';
 import Services from './navComponents/Services';
 import Faq from './navComponents/Faq';
-import Contactus from './navComponents/Contactus';
-import Joinus from './navComponents/Joinus';
+import Contactus from './navComponents/Contactus/Contactus';
+import Joinus from './navComponents/Joinus/Joinus';
 function App() {
   return (
     <div className="App">
@@ -34,7 +34,7 @@ function App() {
      
 
       </div>
-      <Foot/>
+      {/* <Foot/> */}
     </div>
   );
 }
