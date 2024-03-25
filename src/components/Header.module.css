@@ -5,14 +5,29 @@
     background: black;
     color: white;    
     height: 88px;
-    
+    position: sticky;
+    top: 0;
+   z-index: 1;
+   justify-content: space-between;
 }
-
 .logo{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-right: 60px;
+}
+.logo img{
+   
+    width: 70px;
+    height: 70px;
     display: flex;
     align-items: center;
-    gap:1rem;
-    flex:1;
+    justify-content: center;
+     
+     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(297deg) brightness(112%) contrast(101%);
 }
 
 .logo>span{

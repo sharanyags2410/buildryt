@@ -34,7 +34,7 @@ function App() {
      
 
       </div>
-      {/* <Foot/> */}
+      <Foot/>
     </div>
   );
 }

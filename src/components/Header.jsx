@@ -3,7 +3,7 @@ import { MdArrowDropDown } from 'react-icons/md';
 import { MdLocationPin } from "react-icons/md";
 import css from './Header.module.css'
 import { Link } from 'react-router-dom';
-
+import logo from "../navComponents/JoinusAssests/logo.png"
 
 const Location = () => {
   const [selectedCity, setSelectedCity] = useState('BANGALORE');
@@ -67,8 +67,9 @@ function Header() {
   return (
     <div className={css.container}>
       <div className={css.logo}>
-        log
-        <span>LogoName</span>
+      <img src={logo} alt="" />
+        {/* log
+        <span>LogoName</span> */}
       </div>
       <div className={css.right}>
         <div className={css.menu}>
